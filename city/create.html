@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create city</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+<a href="list.html">Back to list City</a>
+<h1>Create City</h1>
+<form id="add-book">
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td><label for="name"></label>
+                <input type="text" id="name" placeholder="name"></td>
+        </tr>
+        <tr>
+            <td>Country:</td>
+            <td><label for="country"></label>
+                <input type="text" id="country" placeholder="country"></td>
+        </tr>
+        <tr>
+            <td>Area:</td>
+            <td><label for="area"></label>
+                <input type="number" id="area" placeholder="area"></td>
+        </tr>
+        <tr>
+            <td>Population:</td>
+            <td><label for="population"></label>
+                <input type="number" id="population" placeholder="population"></td>
+        </tr>
+        <tr>
+            <td>GDP:</td>
+            <td><label for="gdp"></label><input type="number" id="gdp" placeholder="gdp"></td>
+        </tr>
+        <tr>
+            <td>Description:</td>
+            <td><label for="description"></label>
+                <input type="text" id="description" placeholder="description"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Update" onclick="addNewCity()"></td>
+        </tr>
+    </table>
+</form>
+<script src="cities.js"></script>
+</body>
+</html>

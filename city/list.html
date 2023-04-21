@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Books List</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/13a7b8c203.js" crossorigin="anonymous"></script>
+    <style>
+        table, td, th {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+<a href="create.html">Create new city</a>
+
+<div class="container" id="display">
+    <h1>Cities List</h1>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Country</th>
+            <th>Area</th>
+            <th>Population</th>
+            <th>GDP</th>
+            <th>Description</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody id="content">
+        </tbody>
+        <tfoot id="total"></tfoot>
+    </table>
+</div>
+<div id="viewDetail"></div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="cities.js"></script>
+</body>
+</html>
